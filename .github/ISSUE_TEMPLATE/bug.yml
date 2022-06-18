@@ -1,0 +1,44 @@
+name: バグ報告
+description: バグを報告します。
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      label: 概要
+      description: バグの概要。
+      placeholder: |
+        X座標を画面外に動かすときにクラッシュする。
+  - type: markdown
+    attributes:
+      label: 想定の動作
+      description: バグが無い場合に想定されている動作。
+      placeholder: |
+        オブジェクトが動く。
+  - type: markdown
+    attributes:
+      label: 実際の動作
+      description: 現在の動作。
+      placeholder: |
+        AviUtlがクラッシュする。
+  - type: textarea
+    attributes:
+      label: 環境
+      description: |
+        例:
+          - **OS**: Windows 10 21H2(19044.1706)
+          - **AviUtl**: 1.10
+          - **拡張編集**: 0.92
+          - **patch.aul**: r40
+      value: |
+          - OS:
+          - AviUtl:
+          - 拡張編集:
+          - patch.aul:
+      render: markdown
+  - type: textarea
+    attributes:
+      label: クラッシュログ（任意）
+      description: |
+        <aviutl.exeがあるディレクトリ>\log に出力されます。
+        ユーザー名など、個人情報は隠して下さい。
