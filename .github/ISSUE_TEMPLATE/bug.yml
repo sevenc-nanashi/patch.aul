@@ -1,6 +1,5 @@
 name: バグ報告
 description: バグを報告します。
-title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
   - type: textarea
