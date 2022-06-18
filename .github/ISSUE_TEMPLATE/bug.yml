@@ -3,21 +3,21 @@ description: バグを報告します。
 title: "[Bug]: "
 labels: ["bug", "triage"]
 body:
-  - type: input
+  - type: textarea
     id: about
     attributes:
       label: 概要
       description: バグの概要。
       placeholder: |
         X座標を画面外に動かすときにクラッシュする。
-  - type: input
+  - type: textarea
     id: expected
     attributes:
       label: 想定の動作
       description: バグが無い場合に想定されている動作。
       placeholder: |
         オブジェクトが動く。
-  - type: input
+  - type: textarea
     id: actual
     attributes:
       label: 実際の動作
